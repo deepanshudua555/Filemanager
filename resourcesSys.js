@@ -134,11 +134,11 @@ function addResourceToView(name, id, pid, rType) {
 
     let img = resourceBoxDiv.querySelector("[action='set-img-src']");
     if (rType == "folder") {
-        img.src = "./Images/folder-icon.svg"
+        img.src = "Images/folder-image.png"
     } else if (rType == "file") {
-        img.src = "./Images/text-file-icon.svg"
+        img.src = "Images/test_file_image.jpg"
     } else if (rType == "album") {
-        img.src = "./Images/album-icon.svg"
+        img.src = "Images/album-icon-image.png"
     }
 
 
